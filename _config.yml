@@ -1,0 +1,74 @@
+# read documentations for more detail
+
+Splash:
+    - 
+        title: Home
+        type: sitelink
+        link: /
+    -
+        title: Blog
+        type: permalink #sitelink
+        link: https://blog.aincra.de
+        _blank: true
+    -
+        title: Mastodon
+        type: permalink
+        link: https://mastodon.social/@YUNA_dBu
+        _blank: true
+    -
+        title: Github
+        type: permalink
+        link: https://github.com/1dBu
+        _blank: true
+    -
+        title: Telegram
+        type: permalink
+        link: https://t.me/dbu_one
+        _blank: true
+    -
+        title: Email
+        type: permalink
+        link: mailto:yuna@aincra.de
+        _blank: true  
+    # -
+    #     title: Rss
+    #     type: permalink
+    #     link: /atom.xml
+    #     _blank: true
+    # -
+    #     title: About
+    #     type: page
+    #     link: /about
+
+Drawer:
+    -
+        title: Blog
+        type: sitelink
+        link: /posts
+    -
+        title: Tags
+        type: sitelink
+        link: /tags
+    # -
+    #     title: Links
+    #     type: page
+    #     link: /links
+    #     layout: links
+    # -
+    #     title: About
+    #     type: page
+    #     link: /about
+    #     layout: about
+
+# disqus_shortname: demo
+# livere_uid: demo
+
+animated:
+    posts: slideInLeft
+    post: slideInLeft
+    page: slideInLeft
+    tags: bounceInUp
+
+# customize 404 page
+# set false to show default 404 page
+page404: true
