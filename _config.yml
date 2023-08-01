@@ -1,10 +1,10 @@
 # read documentations for more detail
 
 Splash:
-    - 
-        title: Home
-        type: sitelink
-        link: /
+    # -
+    #     title: Home
+    #     type: sitelink
+    #     link: /
     -
         title: Blog
         type: permalink #sitelink
